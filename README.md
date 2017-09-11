@@ -22,12 +22,9 @@ Then we generate the time variable, one random variable as the actual time-serie
 ### Backtesting
 
 We back-test the forecasts against the actual time-series.
-. back_testing actual forecast_
+```. back_testing actual forecast_```
 We back-test with number of decimal places specified.
-. back_testing actual forecast_, num_decimals(7)
-
-
-
+```. back_testing actual forecast_, num_decimals(7)```
 
 ## Files
 Files in this repository:
