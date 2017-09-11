@@ -12,14 +12,14 @@ This program implements backtesting for forecasts, given a time-series of the fo
 
 Suppose that we set the number of observations to be 20.
 Then we generate the time variable, one random variable as the actual time-series, and one variable as the forcast.
-
+'''
 . set obs 20
 . gen time = _n
 . tsset time
 . gen actual = rnormal()
 . gen forecast_ = runiform()
-
-Back-testing
+'''
+### Backtesting
 
 We back-test the forecasts against the actual time-series.
 . back_testing actual forecast_
