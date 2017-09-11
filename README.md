@@ -8,7 +8,7 @@ This program implements backtesting for forecasts, given a time-series of the fo
 
 ## Examples
 
-###Setup
+### Setup
 
 Suppose that we set the number of observations to be 20.
 Then we generate the time variable, one random variable as the actual time-series, and one variable as the forcast.
