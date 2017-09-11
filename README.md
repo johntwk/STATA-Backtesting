@@ -1,7 +1,10 @@
 # STATA-Backtesting
 
 ## Description
-This repositor contains a STATA program for backtesting forecasts, and a STATA help file explaining how to use the program. 
+This repositor contains a STATA program for backtesting forecasts, and a STATA help file explaining how to use the program.
+
+## Purpose
+This program implements backtesting for forecasts, given a time-series of the forecat and another time-series of the actual data.
 
 ## Examples
 
